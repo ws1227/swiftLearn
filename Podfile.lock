@@ -1,0 +1,71 @@
+PODS:
+  - Alamofire (4.5.0)
+  - CYLTabBarController (1.13.1)
+  - FLEX (2.4.0)
+  - Kingfisher (3.10.2)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
+  - Moya (8.0.5):
+    - Moya/Core (= 8.0.5)
+  - Moya/Core (8.0.5):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Moya/RxSwift (8.0.5):
+    - Moya/Core
+    - RxSwift (~> 3.0)
+  - ObjectMapper (2.2.7)
+  - Result (3.2.3)
+  - RxCocoa (3.5.0):
+    - RxSwift (~> 3.4)
+  - RxDataSources (1.0.4):
+    - RxCocoa (~> 3.0)
+    - RxSwift (~> 3.0)
+  - RxSwift (3.5.0)
+  - SDCycleScrollView (1.66):
+    - SDWebImage (~> 4.0.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SnapKit (3.2.0)
+  - Then (2.1.0)
+  - Toast (3.1.0)
+
+DEPENDENCIES:
+  - CYLTabBarController
+  - FLEX
+  - Kingfisher
+  - MBProgressHUD
+  - MJRefresh
+  - Moya
+  - Moya/RxSwift
+  - ObjectMapper
+  - RxCocoa (~> 3.0)
+  - RxDataSources (~> 1.0)
+  - RxSwift (~> 3.0)
+  - SDCycleScrollView
+  - SnapKit (~> 3.2.0)
+  - Then
+  - Toast
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  CYLTabBarController: 97f6b486f9e6c613d69e9c111cc9c2c5db7000ce
+  FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
+  Kingfisher: 7297492bf8cec9b2e2dee3519f2219948580d98e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  Moya: c37eec09a098ba9991b5a963b291fc5704bdb9ef
+  ObjectMapper: 65abcfd9a61cf7396cbd14a4fb22fddfcc46577e
+  Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
+  RxCocoa: a0a09f45d0e5b48ecb6a4a7b4b4c89c88d3f633f
+  RxDataSources: b3389acc5fe2eefb8fcd81a2b76a876ad08bc82a
+  RxSwift: 18ee9d78b45edb3b0b7e79916b47a116e6dbc842
+  SDCycleScrollView: e3ade90e9b3159bec04330b208fbfd81c3f3b671
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  Then: 8496793c8fcac95482b943909b440724c7d8d82c
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+
+PODFILE CHECKSUM: e005983acf5dae06f5239056844d628421134644
+
+COCOAPODS: 1.2.0
