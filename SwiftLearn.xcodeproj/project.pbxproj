@@ -662,14 +662,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B31CAFA6405CBC413D9128C8 /* Pods-SwiftLearn.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = L328AA3KAV;
 				INFOPLIST_FILE = SwiftLearn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangsen.SwiftLearn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/panhongliu/Desktop/Moya+RxSwift/SwiftLearn/Tool/SwiftLearn-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Tool/SwiftLearn-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -678,14 +677,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B81A49ECC3AC662CF18A9EA /* Pods-SwiftLearn.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = L328AA3KAV;
 				INFOPLIST_FILE = SwiftLearn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangsen.SwiftLearn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/panhongliu/Desktop/Moya+RxSwift/SwiftLearn/Tool/SwiftLearn-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Tool/SwiftLearn-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

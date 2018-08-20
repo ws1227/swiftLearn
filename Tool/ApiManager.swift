@@ -33,6 +33,8 @@ enum ApiManager {
     case Create(title: String, body: String, userId: Int)
     case Login(phone:String,password:String)
     case Banner(String)
+    case getInfo(String)
+
 }
 
 extension ApiManager: TargetType {
@@ -45,6 +47,9 @@ extension ApiManager: TargetType {
             return URL.init(string: "http://api.dantangapp.com/")!
         case .Login:
             return URL.init(string: "https://api.grtstar.cn")!
+        case .getInfo:
+            return URL.init(string: "http://api.17gwx.com/")!
+            
         default:
         return URL.init(string: "http://news-at.zhihu.com/api/")!
         }
@@ -53,6 +58,9 @@ extension ApiManager: TargetType {
     /// The path to be appended to `baseURL` to form the full `URL`.
     var path: String {
         switch self {
+        case .getInfo(let time):
+            return "coupon/coupon/listByCateCollectionId?app_installtime=1534746919&app_version=6.3&cate_collection_id=442&channel_name=AppStore&client_id=8&device_id=26BC6BBC-D73C-4F23-B845-ED5A92020BD5&device_info=iPhone10%2C2&gender=1&network=Wifi&os_version=12.0&page=0&pagesize=20&sign=ece81f9b3c960ffc0ce95a6ce0646c00&sort_type=7&timestamp=\(time)"
+
         case .getDantangList(let page):
             return "v1/channels/\(page)/items"
         case .getNewsList:
